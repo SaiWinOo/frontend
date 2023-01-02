@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button{
+    @apply px-10 py-1 bg-secondary hover:bg-yellow-600 transition-all
+}
+
+textarea,input,select{
+    outline-color: #0336df;
+    resize: none;
+}
